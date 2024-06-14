@@ -19,7 +19,7 @@ class ChessGameTest; // Предварительное объявление кл
  */
 class ChessGame {
 public:
-    //! Структура таймера
+    //! Инициализация доски
     ChessGame() {
         initializeBoard();
         whiteTimeLeft = initialTime;
