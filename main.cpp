@@ -14,15 +14,4 @@ int main()
   cout << "Нажмите любую кнопку и enter, чтобы начать" << endl;
   cin >> s;
 
-  while (newgame) {
-    ChessGame game;
-    game.start();
-    cout << "Хотите сыграть ещё раз? (y - да, n - нет) ";
-    cin >> s;
-    if (s != "y") {
-      newgame = false;
-    }
-  }
-
-  return 0;
-}
+  
